@@ -184,6 +184,48 @@ body {
   color: #94a3b8;
 }
 
+/* Interactive Estimator */
+.estimator {
+  background-color: #f0f9ff;
+  padding: 60px 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.estimator-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  text-align: center;
+}
+
+.estimator-box label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.estimator-box select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #94a3b8;
+  margin-bottom: 20px;
+}
+
+.estimate-result {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.estimate-result strong {
+  color: #0284c7;
+}
+
 /* Mobile Responsiveness (Hour 3 Check) */
 @media (max-width: 768px) {
   .hero {

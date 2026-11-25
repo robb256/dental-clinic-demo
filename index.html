@@ -52,6 +52,30 @@
     </div>
   </section>
 
+<!-- Interactive Cost Estimator -->
+  <section class="estimator">
+    <div class="container">
+      <h2 class="section-title">Instant Treatment Estimate</h2>
+      <div class="estimator-box">
+        <label for="treatment">Select Treatment:</label>
+        <select id="treatment">
+          <option value="500">General Consultation & Checkup (₹500)</option>
+          <option value="3500">Laser Teeth Whitening (₹3,500)</option>
+          <option value="4500">Single-Sitting Root Canal (₹4,500)</option>
+          <option value="22000">Dental Implant (₹22,000)</option>
+        </select>
+
+        <div class="estimate-result">
+          Estimated Cost: <strong id="price-display">₹500</strong>
+        </div>
+
+        <a id="dynamic-wa-btn" href="https://wa.me/919876543210?text=Hello%2C%20I%20checked%20the%20estimate%20for%20General%20Consultation%20(%E2%82%B9500)%20and%20want%20to%20book." target="_blank" class="btn btn-cta">
+          Book This Treatment on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- 4. Contact & Location Footer -->
   <footer class="footer" id="contact">
     <div class="container footer-grid">
@@ -79,6 +103,8 @@
       <p>&copy; 2026 BrightSmile Dental Clinic. All rights reserved.</p>
     </div>
   </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
